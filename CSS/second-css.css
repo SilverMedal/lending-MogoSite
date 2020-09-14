@@ -1,0 +1,574 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.quote-block-two{
+	width: 100%;
+	height: 240px;
+}
+
+.quote-block-two-content{
+	height: 100%;
+	width: 1200px;
+
+	margin: 0 auto;
+}
+
+.quote-block-two-content p{
+	color: #999999;
+	font-size: 24px;
+
+	margin-top: 140px;
+	padding: 0 130px 0 320px;
+}
+
+.quote-block-two-content span{
+	font-size: 24px;
+	color: #000;
+	font-family: 'Kaushan Script', cursive;
+
+	margin-left: 70px;
+	margin-top: 30px;
+	
+	position: relative;
+}
+
+.quote-block-two-content span::after{
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: -70px;
+
+	width: 65px;
+	height: 3px;
+
+	background-color: #F38181;
+}
+
+.main-quote-block{
+	position: relative;
+	margin-left: 100px;
+}
+
+.quote-block-two-content span::before{
+	content: url(images/Layer-36.png);
+	position: absolute;
+	top: -140px;
+	left: -460px;
+}
+
+.main-quote-block::after{
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: -100px;
+
+	height: 15px;
+	width: 15px;
+
+	border-left: 3px solid #cccccc;
+	border-top: 3px solid #cccccc;
+
+	transform: rotate(-45deg);
+}
+
+.main-quote-block p::before{
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: 95%;
+
+	height: 15px;
+	width: 15px;
+
+	border-left: 3px solid #cccccc;
+	border-top: 3px solid #cccccc;
+
+	transform: rotate(135deg);
+}
+
+.happy-clients{
+	width: 100%;
+	height: 830px;
+
+	background: url(images/Clients/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.happy-clients-content{
+	width: 1200px;
+	height: 100%;
+
+	margin: 0 auto;
+}
+
+.title-happy-client{
+	text-align: center;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title-happy-client h3{
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+
+	margin-bottom: -30px;
+}
+
+.title-happy-client h4{
+	font-size: 30px;
+	position: relative;
+}
+
+.title-happy-client h4:after{
+	content: "";
+	position: absolute;
+	top: 70px;
+	left: 570px;
+
+	height: 3px;
+	width: 60px;
+
+	background-color: #f38a8a;
+}
+
+#client-block{
+	width: 370px;
+
+	margin-left: 200px;
+	position: relative;
+}
+
+.main-clients p{
+	font-size: 15px;
+	color: #999999;
+}
+
+.main-clients h6{
+	font-size: 15px;
+
+	font-style: italic;
+	font-weight: normal;
+
+	margin-top: -10px;
+	position: relative;
+}
+
+.main-clients h6:before{
+	position: absolute;
+	content: "";
+	top: 35px;
+	left: 0;
+
+	height: 3px;
+	width: 60px;
+
+	background-color: #F38181;
+}
+
+.one-clients{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	margin-bottom: 130px;
+	position: relative;
+}
+
+.first-client:before{
+	content: url(images/review/01.png);
+	position: absolute;
+	top: 20px;
+	left: -150px;
+}
+
+.second-client:before{
+	content: url(images/review/02.png);
+	position: absolute;
+	top: 20px;
+	left: -150px;
+}
+
+.two-clients{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+}
+
+.third-client:before{
+	content: url(images/review/03.png);
+	position: absolute;
+	top: 20px;
+	left: -150px;
+}
+
+.fourth-client:before{
+	content: url(images/review/04.png);
+	position: absolute;
+	top: 20px;
+	left: -150px;
+}
+
+.our-stories{
+	width: 100%;
+	height: 770px;
+}
+
+.our-stories-content{
+	width: 1200px;
+	height: 100%;
+
+	margin: 0 auto;
+}
+
+.title-our-stories{
+	text-align: center;
+
+	margin-top: 100px;
+}
+
+.title-our-stories h4{
+	font-size: 30px;
+	position: relative;
+}
+
+.title-our-stories h4:after{
+	content: "";
+	position: absolute;
+	top: 70px;
+	left: 570px;
+
+	height: 3px;
+	width: 60px;
+
+	background-color: #f38a8a;
+}
+
+.title-our-stories h3{
+	font-size: 24px;
+	font-family:  'Kaushan Script', cursive;
+
+	margin-bottom: -40px;
+}
+
+.photos-our-stories{
+	margin-top: 95px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.photo{
+	position: relative;
+
+	display: block;
+	width: 380px;
+	height: 240px;
+}
+
+.photo span{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	position: relative;
+}
+
+.photo span{
+	position: absolute;
+	top: 45px;
+	left: 16px;
+}
+
+.photo h6{
+	font-size: 14px;
+	color: #000;
+}
+
+.photo p{
+	font-size: 15px;
+	color: #999;
+
+	width: 350px;
+
+	margin-top: -13px;
+
+	position: relative;
+}
+
+.photo p:after{
+	content: "";
+	position: absolute;
+	top: 60px;
+	left: 0;
+
+	height: 1px;
+	width: 380px;
+
+	background-color: #999;
+	opacity: 0.3;
+}
+
+.date{
+	position: absolute;
+	top: 160px;
+	left: -15px;
+
+	width: 60px;
+	height: 70px;
+
+	background-color: #95e1d3;
+	
+	color: #fff;
+	text-align: center;
+	padding-top: 13px;
+	font-size: 30px;
+	font-weight: bold;
+	
+	z-index: 111;
+}
+
+.stats-view{
+	display: flex;
+}
+
+.stats-view h5{
+	margin-left: 25px;
+
+	font-weight: normal;
+	color: #999;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.first-h5:before{
+	content: url(images/blog/view.png);
+	padding-right: 10px;
+}
+
+.second-h5:before{
+	content: url(images/blog/comments.png);
+	padding-right: 10px; 
+}
+
+
+.geolocation{
+	width: 100%;
+	height: 200px;
+
+	background: url(images/map/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.geolocation-content{
+	width: 1200px;
+	height: 100%;
+
+	margin: 0 auto;
+
+	text-align: center;
+	font-size: 24px;
+	color: #f38181;
+}
+
+.geolocation-content h5{
+	padding-top: 100px;
+	position: relative;
+}
+
+.geolocation-content h5:after{
+	content: "";
+	top: 145px;
+	left: 568px;
+
+	height: 3px;
+	width: 60px;
+
+	background-color: #f38181;
+
+	position: absolute;
+}
+
+.geolocation-content h5:before{
+	content: url(images/map/pin.png);
+	top: 60px;
+	left: 588px;
+
+	position: absolute;
+}
+
+.last-block{
+	width: 100%;
+	height: 500px;
+}
+
+.last-block-content{
+	width: 1200px;
+	height: 100%;
+
+	display: block;
+
+	margin: 0 auto;
+}
+
+.mogo-block{
+	width: 475px;
+	height: 100%;
+	float: left;
+}
+
+.mogo-block h3{
+	font-size: 46px;
+	color: #999;
+}
+
+.mogo-block p{
+	font-size: 15px;
+	color: #999;
+	line-height: 23px;
+
+	width: 460px;
+	margin-top: -25px;
+}
+
+.followers p{
+	font-size: 20px;
+	color: #000;
+}
+
+.followers{
+	margin-top: 55px;
+
+	width: 460px;
+	border-bottom: 1px solid rgb(60%, 60%, 60%, 0.3);
+}
+
+.followers span{
+	font-size: 24px;
+	color: #000;
+	font-weight: bold;
+}
+
+.about-media{
+	display: flex;
+	align-items: center;
+}
+
+.about-media h3{
+	font-size: 15px;
+	font-style: italic;
+	color: #999;
+	font-weight: normal;
+}
+
+.about-media i{
+	color: #abede2;
+	margin-left: 20px;
+}
+
+.email-block-mogo{
+	display: flex;
+	padding-top: 40px;
+}
+
+#first-input{
+	width: 230px;
+	height: 40px;
+	padding-left: 15px;
+
+	border: 1px solid rgb(60%, 60%, 60%, 0.3);
+
+	color: #999;
+	font-style: italic;
+}
+
+#second-input{
+	width: 150px;
+	height: 40px;
+
+	color: #fff;
+	font-size: 14px;
+	font-weight: 900;
+
+	background-color: #95e1d3;
+}
+
+.blogs-block{
+	width: 400px;
+	height: 100%;
+
+	padding-top: 40px;
+
+	float: left;
+}
+
+.images img{
+	display: block;
+	margin-top: 30px;
+}
+
+.block-image{
+	display: flex;
+}
+
+.block-image p{
+	padding: 30px 0 0 30px;
+
+	font-size: 12px;
+	font-weight: 900;
+	text-transform: uppercase;
+
+	position: relative;
+}
+
+.instagram-block{
+	width: 315px;
+	height: 100%;
+
+
+	float: right;
+
+	padding-top: 40px;
+}
+
+.photos-for-ins{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.instagram-block a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #999;
+	opacity: 0.9;
+	font-style: italic;
+}
+
+.footer-content{
+	width: 1200px;
+	height: 60px;
+
+	margin: 0 auto;
+
+	text-align: center;
+
+	border-top: 1px solid rgb(60%, 60%, 60%, 0.2);
+}
+
+.footer-content p{
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.footer-content span{
+	color: #f38a8a
+}
